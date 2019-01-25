@@ -1,6 +1,6 @@
 # PushOver library
 
-This repository is a fork of https://github.com/Ph3nol/PushOver because this it looks like dead :( 
+This repository is a fork of https://github.com/Ph3nol/PushOver because it looks like dead :( 
 
 ## Requirements
 
