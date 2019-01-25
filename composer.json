@@ -1,0 +1,22 @@
+{
+    "name": "coderovich/pushover",
+    "description": "A PHP library for easy PushOver service use: send real-time notifications to your Android and iOS devices.",
+    "keywords": ["pushover", "service", "push", "notification", "iphone", "android"],
+    "homepage": "https://github.com/coderovich/pushover",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergei Pavlov / Cédric Dugat",
+            "email": "spavlov@li.ru"
+        }
+    ],
+    "require": {
+        "kriswallsmith/buzz": ">= 0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "coderovich\\pushover\\": ["src/"]
+        }
+    }
+}
