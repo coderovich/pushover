@@ -1,7 +1,5 @@
 # PushOver library
 
-[![Continuous Integration status](https://secure.travis-ci.org/coderovich/pushover.png)]
-
 ## Requirements
 
 * PHP 5.3+
