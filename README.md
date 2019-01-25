@@ -1,6 +1,6 @@
 # PushOver library
 
-[![Continuous Integration status](https://secure.travis-ci.org/coderovich/pushover.png)](http://travis-ci.org/Ph3nol/PushOver)
+[![Continuous Integration status](https://secure.travis-ci.org/coderovich/pushover.png)]
 
 ## Requirements
 
@@ -40,8 +40,8 @@ You're ready to go.
 
 require_once '/path/to/vendor/autoload.php'; // or your global project autoload
 
-use coderovich\PushOver\Model\Push;
-use coderovich\PushOver\PushManager;
+use coderovich\pushover\Model\Push;
+use coderovich\pushover\PushManager;
 
 /**
  * First, create your own push, with its message.
