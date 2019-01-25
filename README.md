@@ -1,5 +1,7 @@
 # PushOver library
 
+This repository is a fork of https://github.com/Ph3nol/PushOver because this it looks like dead :( 
+
 ## Requirements
 
 * PHP 5.3+
