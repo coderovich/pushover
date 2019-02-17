@@ -10,6 +10,7 @@ use coderovich\pushover\Exception\WebServiceException;
 use Buzz\Browser;
 use Nyholm\Psr7\Response;
 use Buzz\Client\Curl;
+use Nyholm\Psr7\Factory\Psr17Factory;
 
 /**
  * PushManager class.
@@ -36,7 +37,7 @@ class PushManager implements PushManagerInterface
      */
     public function __construct($userKey, $apiKey, $device = null)
     {
-        $this->browser = new Browser(new Curl());
+	    $this->browser = new Browser(new Curl(new Psr17Factory()), new Psr17Factory());
         $this->userKey = $userKey;
         $this->apiKey  = $apiKey;
         $this->device  = $device;
