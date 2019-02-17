@@ -9,15 +9,14 @@ use coderovich\pushover\Model\PushInterface;
  *
  *
  */
-interface PushManagerInterface
-{
-    /**
-     * Push message.
-     *
-     * @param PushInterface $push     Push
-     * @param boolean       $realSend Real send
-     * 
-     * @return stdClass|array
-     */
-    public function push(PushInterface $push, $realSend = true);
+interface PushManagerInterface {
+	/**
+	 * Push message.
+	 *
+	 * @param PushInterface $push Push
+	 * @param boolean $realSend Real send
+	 *
+	 * @return stdClass|array
+	 */
+	public function push(PushInterface $push, $realSend = true);
 }
